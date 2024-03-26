@@ -35,7 +35,7 @@ function Weather() {
             <div className="bg-sky-300 p-10">
                 <h1 className="text-2xl font-medium ">Weather Report</h1>
                 <p>I can give you a weather report about your city!</p>
-                <input onChange={handlecity} type="text" className="border border-black rounded-md outline-none p-1 mt-2" placeholder="Enter your City Name"></input>
+                <input onChange={handlecity} type="text" className="w-auto border border-black rounded-md outline-none p-1 mt-2 " placeholder="Enter your City Name"></input>
                 <br />
                 <button onClick={getweather} className="bg-black text-white p-2 rounded-md mt-2">Get Report</button>
                 <div className="mt-2">
